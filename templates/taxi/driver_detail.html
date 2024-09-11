@@ -11,7 +11,7 @@
       <th>Manufacturer</th>
     </tr>
     </thead>
-      {% for car in object.cars.all %}
+      {% for car in driver.cars.all %}
         <tr>
           <td>{{ car.model }}</td>
           <td>{{ car.manufacturer.name }}</td>
